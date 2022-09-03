@@ -1,0 +1,837 @@
+*{
+	box-sizing: border-box;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+img{
+	max-width: 100%;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p,figure{
+	margin: 0;
+}
+
+/* header top starts css */
+
+.header-top {
+    background: #001eb3;
+    padding: 6px;
+}
+
+.header-top-left a {
+    color: #fff;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.header-top-left a:last-child{
+    margin-right: 0;
+}
+
+.header-top-left a i {
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.header-top-right a {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    margin-right: 10px;
+    color: #f00;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+.header-top-right a:last-child{
+    margin-right: 0;
+}
+
+.header-top-right a:hover{
+    background: #f00;
+    color: #fff;
+}
+
+/* nav css starts here */
+
+.header-bottom {
+    box-shadow: 0 0 10px #524f4f;
+}
+
+.logo {
+    width: 120px;
+}
+
+.navbar-nav>li{
+    margin-right: 4px;
+}
+
+.navbar-nav>li:last-child{
+    margin-right: 0;
+}
+
+.navbar-nav .active{
+    background: #001eb3;
+}
+
+.navbar-nav>li>a {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 20px;
+    background: #f00;
+    color: #fff;
+    transition: all 0.3s;
+    display: block;
+    border-bottom: 1px solid #fff;
+    text-transform: uppercase;
+}
+
+.navbar-nav>li>a:hover{
+    background: #001eb3;
+    color: #fff;
+}
+
+.navbar-toggler i {
+    font-size: 35px;
+}
+
+.mydropdown {
+    margin: 0;
+    padding: 0;
+    min-width: 200px;
+}
+
+.mydropdown>li{
+   border-bottom: 1px solid #fff; 
+}
+
+.mydropdown>li:last-child{
+    border-bottom: 0;
+}
+
+.mydropdown>li>a {
+    background: #f00;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 0 5px 20px;
+    transition: all 0.3s;   
+}
+
+.mydropdown>li>a:hover{
+    background: #001eb3;
+}
+
+/* shopping top css starts */
+
+.shoppingContainer {
+    margin: 60px 0;
+}
+
+.shopping-top h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+/* slider starts css here */
+
+.sliderContainer-heading h2 {
+    font-size: 26px;
+    color: #2c3543;
+    margin-bottom: 15px;
+}
+
+.sliderContainer-box h3 {
+    font-size: 16px;
+    color: #2c3543;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.sliderBox {
+    border-radius: 5px;
+    box-shadow: 1px 4px 8px #c5c4c4;
+    margin: 6px;
+}
+
+.sliderBox img {
+    border-radius: 5px 5px 0 0;
+}
+
+.sliderBox-text {
+    padding: 18px;
+}
+
+.sliderBox-text h5 {
+    color: #5da6de;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.sliderBox-text h4 {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.sliderBox-bottomLeft p {
+    font-size: 13px;
+    color: #818080;
+}
+
+.sliderBox-bottomLeft p span {
+    font-size: 26px;
+    color: #398413;
+}
+
+.custombtn {
+    display: flex;
+    font-size: 13px;
+    background: #277bba;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.custombtn:hover{
+    color: #fff;
+    background: #f00;
+}
+
+.owl-theme .owl-nav{
+	display: block!important;
+}
+
+#mysliderI .owl-nav button.owl-next, #mysliderI .owl-nav button.owl-prev{
+    position: absolute;
+    top: 42%;
+    background: #fff;
+    border: 2px solid #ebebeb;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    color: #000;
+}
+#mysliderI .owl-nav button.owl-prev{
+    left: -15px;
+}
+#mysliderI .owl-nav button.owl-next {
+    right: -15px;
+}
+
+#mysliderII .owl-nav button.owl-next, #mysliderII .owl-nav button.owl-prev{
+	position: absolute;
+    top: 42%;
+    background: #fff;
+    border: 2px solid #ebebeb;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    color: #000;
+}
+#mysliderII .owl-nav button.owl-prev{
+	left: -15px;
+}
+#mysliderII .owl-nav button.owl-next {
+    right: -15px;
+}
+
+.exploreAll {
+    font-size: 17px;
+    font-weight: 500;
+    color: #5696c8;
+    text-transform: uppercase;
+}
+
+.sliderContainer {
+    margin-bottom: 70px;
+}
+
+/* Restaurants section css starts */
+
+.restaurants-sectionHeading {
+    margin-bottom: 40px;
+}
+
+/* filter box starts css here */
+
+.restaurants-fullWidth {
+    background: #f2f2f2;
+    padding: 20px 0;
+}
+
+.custom-container {
+    max-width: 1260px;
+    margin: auto;
+}
+
+.filterBox {
+    border: 1px solid #d1cdcd;
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.filterBox-mapImage figure {
+    width: 100%;
+}
+
+.filterBox-mapImage figure img {
+    width: 100%;
+}
+
+.filterBox-mapImageBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.filterBox-mapImageBtn button {
+    border: 1px solid #000;
+    background: #fff;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+}
+
+.filter-checkbox {
+    padding: 15px 0;
+    border-bottom: 1px solid #bbb4b4;
+}
+
+.filter-checkbox .filter-title {
+    font-size: 17px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.filterInput-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.filterInput-box input[type=checkbox] {
+    width: 20px;
+    margin: 0;
+    border: 3px solid #000;
+    background: red;
+    height: 20px;
+    cursor: pointer;
+}
+
+.filterInput-box label {
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.filterInput-box-showBtn {
+    border: 0;
+    background: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.filterInput-box-showBtn span{
+    border-bottom: 1px dotted #000;
+}
+
+/* Restaurants right section css starts here */
+
+.restaurantsBhiwani-topLeft h3 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 600;
+}
+
+.sortBy>span {
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.sortBy input[type="search"] {
+    border: 0;
+    background: #ddd;
+    padding: 8px 10px;
+    border-radius: 4px;
+}
+
+.sortBy i {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.restaurantsBhiwani-bottomFullwidth {
+    margin-top: 35px;
+}
+
+.restaurantsBhiwani-menu {
+    border: 1px solid #cfcccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.restaurantsBhiwani-menuLeft {
+    overflow: hidden;
+}
+
+.restaurantsBhiwani-menuLeft a{
+    width: 270px;
+    height: 214px;
+    background: #fff;
+    position: relative;
+}
+
+.restaurantsBhiwani-menuLeft a img {
+    width: 30px;
+}
+
+.restaurantsBhiwani-menuLeft .restheart {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #000;
+    background: #fff;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    z-index: 9;
+}
+
+.restaurantsBhiwani-menuRight {
+    padding: 0px 15px;
+    flex: 1;
+    background: #fff;
+    border-left: 1px solid #ddd;
+}
+
+.restaurantsBhiwani-menuRight h3 a {
+    font-size: 20px;
+    color: #000;
+}
+
+.restaurantsBhiwani-menuRight h3 a:hover{
+    text-decoration: underline;
+}
+
+.restaurantsBhiwani-reviews {
+    margin-top: 5px;
+}
+
+.reviews {
+    margin-right: 10px;
+}
+
+.reviews>i {
+    color: #00aa6c;
+    font-size: 20px;
+    margin-right: -3px;
+}
+
+.reviewShow {
+    color: #000;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.reviewShow:hover{
+    color: #000;
+    text-decoration: underline;
+}
+
+.reviewCloseBtn {
+    border: 0;
+    background: 0;
+    margin-left: 10px;
+    color: #c00;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.restaurantsBhiwani-rates {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.restaurantsBhiwani-rates span {
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 10px;
+    color: #6e6c6c;
+}
+
+.restaurantsBhiwani-ratesIcon {
+    margin-left: 10px;
+}
+
+.restaurantsBhiwani-ratesIcon i {
+    font-size: 14px;
+    font-weight: 100;
+    color: #626262;
+}
+
+.restaurantsBhiwani-menuRight p a {
+    font-size: 15px;
+    color: #6e6c6c;
+}
+
+.restaurantsBhiwani-menuRight p a:hover{
+    text-decoration: underline;
+}
+
+/* menuSlider css */
+
+.menuSlider {
+    width: 100%;
+    height: 100%;
+}
+
+#menuSliderbox {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.menuSlider .item {
+    height: 214px;
+}
+
+.menuSlider .item figure {
+    height: 100%;
+}
+
+.menuSlider .item figure img {
+    height: 100%;
+}
+
+.menuSlider .owl-nav button.owl-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    color: #000;
+    right: 10px;
+    background: #000;
+}
+
+.menuSlider .owl-nav button.owl-prev{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    color: #000;
+    left: 10px;
+    background: #000;
+}
+
+.menuSlider .owl-nav i {
+    color: #fff;
+}
+
+.menuSlider .owl-theme .owl-nav{
+    opacity: 0;
+}
+
+.menuSlider:hover .owl-theme .owl-nav{
+    opacity: 1;
+}
+
+.menuSlider .owl-theme .owl-dots{
+    display: block;
+}
+
+.menuSlider button.owl-dot{
+    position: absolute;
+    bottom: 20px;
+}
+
+/* footer banner css starts */
+
+.footerBanner-container{
+    background: url("../images/fbanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footerBanner h3 {
+    display: inline-block;
+    color: #fff;
+    background: #9cc051;
+    padding: 8px 25px;
+    font-size: 20px;
+    position: relative;
+}
+
+.footerBanner h3:after {
+    position: absolute;
+    content: "";
+    border-top: 20px solid #9abf51;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #9abf51;
+    right: -40px;
+    top: 0;
+}
+
+.footerBanner h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.footerBanner p {
+    color: #fff;
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.footerBanner-btn {
+    background: #cf1c22;
+    color: #fff;
+    width: 322px;
+    font-size: 18px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.footerBanner-btn:hover{
+    color: #fff;
+}
+
+/* footer css starts */
+
+footer {
+    background: url("../images/f_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 60px 0 30px;
+    position: relative;
+}
+
+footer:before {
+    position: absolute;
+    content: "";
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.footer-heading {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer-address p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer-address p i {
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    color: #f70000;
+    flex: 1;
+    display: inline-block;
+    padding: 7px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.footer-address p a {
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer-social-icon a {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    border-radius: 100%;
+    color: #001eb3;
+    transition: all 0.3s;
+}
+
+.footer-social-icon a:hover{
+    background: #001eb3;
+    color: #fff;
+}
+
+.footerMenu li {
+    list-style: none;
+}
+
+.footerMenu>li>a {
+    color: #fff;
+    font-size: 16px;
+    padding-bottom: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.footerMenu>li>a:hover {
+    transform: translateX(5px);
+}
+
+.footerMenu>li>a>i {
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.footerForm .form-control {
+    border-radius: 0;
+}
+
+.footerForm .custombtn {
+    border: 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 0;;
+}
+
+.copyright {
+    border-top: 1px solid #7e7e7e;
+    margin-top: 50px;
+    padding-top: 30px;
+    color: #fff;
+}
+
+
+
+
+
+
+@media (max-width: 991px){
+    .restaurantsBhiwani-top {
+        margin-top: 30px;
+    }
+    .navbar-nav>li:last-child{
+        margin-right: 4px;
+    }
+    #mynavbar {
+    position: absolute;
+    top: 117px;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+}
+.footer-addressContainer, .footerLink{
+    margin-bottom: 30px;
+}
+}
+
+
+
+@media(max-width: 768px){
+    .restaurantsBhiwani-top {
+    flex-direction: column;
+    text-align: center;
+}
+.sortBy {
+    margin-top: 15px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.sortBy input[type="search"]{
+    flex: 1;
+}
+}
+
+@media (max-width: 576px){
+    .header-top-left a span{
+        display: none;
+    }
+    .restaurantsBhiwani-menu{
+        flex-direction: column;
+    }
+    .restaurantsBhiwani-menuLeft a{
+        width: 100%!important;
+    }
+    .restaurantsBhiwani-menuRight{
+        padding-bottom: 15px;
+    }
+    .restaurantsBhiwani-topLeft h3{
+        font-size: 22px;
+    }
+    .footerBanner h3 {
+    padding: 11px;
+    font-size: 15px;
+}
+    .footerBanner h2{
+        font-size: 26px;
+    }
+    .footerBanner-btn{
+        width: 220px;
+            font-size: 16px;
+    }
+}
